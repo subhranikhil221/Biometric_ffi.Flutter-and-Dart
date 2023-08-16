@@ -11,8 +11,12 @@ void main() =>
       // Initialize the usbInfo variable
       final usbInfo = usb_info.UsbDeviceInfo.getUsbDeviceInfo();
 
-      // Build your app and trigger a frame.
-      await tester.pumpWidget(MyApp());
+      // Build a testable widget that wraps MyApp
+      await tester.pumpWidget(
+        MaterialApp(
+          home: MyApp(),
+        ),
+      );
 
       // Verify that the USB device information is displayed.
       expect(find.text('USB Device Info'), findsOneWidget); // App title
