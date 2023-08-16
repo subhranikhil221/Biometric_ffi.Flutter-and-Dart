@@ -1,0 +1,3 @@
+S:/WINDOWS_FFI/Biometric_ffi/build/CMakeFiles/mydll.dir
+S:/WINDOWS_FFI/Biometric_ffi/build/CMakeFiles/edit_cache.dir
+S:/WINDOWS_FFI/Biometric_ffi/build/CMakeFiles/rebuild_cache.dir

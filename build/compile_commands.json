@@ -1,0 +1,8 @@
+[
+{
+  "directory": "S:/WINDOWS_FFI/Biometric_ffi/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\I686-8~1.0-P\\mingw32\\bin\\G__~1.EXE -Dmydll_EXPORTS  -g -o CMakeFiles\\mydll.dir\\Biometrics.cpp.obj -c S:\\WINDOWS_FFI\\Biometric_ffi\\Biometrics.cpp",
+  "file": "S:/WINDOWS_FFI/Biometric_ffi/Biometrics.cpp",
+  "output": "CMakeFiles/mydll.dir/Biometrics.cpp.obj"
+}
+]

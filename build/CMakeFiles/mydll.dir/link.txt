@@ -1,0 +1,3 @@
+"S:\New folder (2)\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\mydll.dir/objects.a
+C:\PROGRA~1\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe qc CMakeFiles\mydll.dir/objects.a @CMakeFiles\mydll.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g -shared -o libmydll.dll -Wl,--out-implib,libmydll.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\mydll.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\mydll.dir\linkLibs.rsp
